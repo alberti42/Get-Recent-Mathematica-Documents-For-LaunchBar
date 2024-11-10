@@ -8,7 +8,7 @@ This repository provides an action for [LaunchBar](https://www.obdev.at/products
 
 This repository includes the following components:
 
-- **Actions**: Pre-packaged LaunchBar actions in `Actions.zip` to enable direct access to recent documents.
+- **Actions**: Pre-packaged LaunchBar action in `Action.zip` to enable direct access to recent documents.
 - **Source Code**:
   - **GetRecentMathematicaDocuments**: Retrieves recent Wolfram Mathematica documents.
   
@@ -16,7 +16,7 @@ This repository includes the following components:
 
 ### Option 1: Manual Installation
 
-1. **Download** the pre-packaged actions from the [Actions.zip](path/to/Actions.zip).
+1. **Download** the pre-packaged action from the [Action.zip](Action.zip).
 2. **Extract** the contents, which include:
    - `Recent Wolfram Mathematica Documents.lbaction`
 3. Place these `.lbaction` files into your LaunchBar Actions folder:
