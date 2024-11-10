@@ -16,7 +16,7 @@ This repository includes the following components:
 
 ### Option 1: Manual Installation
 
-1. **Download** the pre-packaged action from the [Action.zip](Action.zip).
+1. **Download** the pre-packaged action from the [Action.zip](https://github.com/alberti42/Get-Recent-Mathematica-Documents-For-LaunchBar/raw/refs/heads/main/Action.zip).
 2. **Extract** the contents, which include:
    - `Recent Wolfram Mathematica Documents.lbaction`
 3. Place these `.lbaction` files into your LaunchBar Actions folder:
