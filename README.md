@@ -54,7 +54,7 @@ To compile the `GetRecentMathematicaDocuments` program from the source code, fol
 
 ## Usage
 
-- Activate LaunchBar and type the name of Wolfram.
+- Activate LaunchBar and type the name of Wolfram Mathematica.
 - Tip: once you select `Wolfram` app in LaunchBar, you can press ⌥+⌘+a to associate a different string such as `Mathematica` if you prefer the old name.
 - Press space to display the recent documents directly from LaunchBar.
 
