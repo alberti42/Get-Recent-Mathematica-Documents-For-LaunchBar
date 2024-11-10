@@ -2,7 +2,7 @@
 
 This repository provides an action for [LaunchBar](https://www.obdev.at/products/launchbar/actions.html) for accessing recent documents opened with Wolfram Mathematica. The actions are designed to streamline access to recent files for users of Wolfram Mathematica.
 
-<img alt="Screenshot" src="Images/Wolfram_Mathematica_screenshot.jpg" width="1102">
+<img alt="Screenshot" src="Images/Wolfram_Mathematica_screenshot.jpg" width="1108">
 
 ## Contents
 
