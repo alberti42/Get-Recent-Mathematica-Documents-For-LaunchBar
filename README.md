@@ -58,6 +58,14 @@ To compile the `GetRecentMathematicaDocuments` program from the source code, fol
 - Tip: once you select `Wolfram` app in LaunchBar, you can press ⌥+⌘+a to associate a different string such as `Mathematica` if you prefer the old name.
 - Press space to display the recent documents directly from LaunchBar.
 
+## Tips
+
+It is convenient to increase the number of recent documents tracked by Mathematica with the command:
+
+```Mathematica
+SetOptions[$FrontEnd, "NotebooksMenuHistoryLength" -> 100] 
+```
+
 ## Donations
 
 If you find this plugin helpful, consider supporting its development with a donation.

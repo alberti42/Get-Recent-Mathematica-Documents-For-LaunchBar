@@ -258,7 +258,7 @@ NSMutableArray* get_recent_documents(void) __attribute__((ns_returns_retained))
             // NSLog(@"****%@",[init_file substringWithRange:NSMakeRange([stringScanner scanLocation], 20)]);
             
             int counter = 0;
-            while([stringScanner isAtEnd]==NO  && counter < 50)
+            while([stringScanner isAtEnd]==NO /*&& counter < 100*/)
             {
                 
                 searchStr = @"FileName[{";
@@ -277,7 +277,7 @@ NSMutableArray* get_recent_documents(void) __attribute__((ns_returns_retained))
                         [basename_arr addObject:[StringFound stringByReplacingOccurrencesOfString:@"$RootDirectory" withString:@""]];
                         
                         
-                        // NSLog(@"Position: *****%@",[init_file substringWithRange:NSMakeRange([stringScanner scanLocation], 20)]);
+                        //NSLog(@"Position: *****%@",[init_file substringWithRange:NSMakeRange([stringScanner scanLocation], 20)]);
                         
                         while([stringScanner isAtEnd]==NO && [init_file characterAtIndex:[stringScanner scanLocation]] != '}')
                         {
@@ -300,6 +300,8 @@ NSMutableArray* get_recent_documents(void) __attribute__((ns_returns_retained))
                             {
                                 [RecentDocuments addObject:@[basename, filename, @""]];
                                 counter++;
+                            } else {
+                                // printf("%s\n",[[NSString stringWithFormat:@"%@/%@", basename, filename] fileSystemRepresentation]);
                             }
                         }
                     }
